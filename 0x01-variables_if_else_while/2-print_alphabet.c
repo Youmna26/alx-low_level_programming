@@ -1,24 +1,18 @@
 #include <stdio.h>
+
 /**
- * main - Entry point
- *
- * Description: print all the alphabet letters
- *
- * Result 0 (Success)
-*/
-int  main(void)
+ * main - prints the alphabet in lowercase,
+ * followed by a new line
+ * Return: Always 0 (Success)
+ */
+int main(void)
 {
-int n alphabet
-char = 'a';
-while (ch <= 'z')
-{
-putchar(ch);
-ch++;
+	char ch;
+
+	for (ch = 'a'; ch <= 'z'; ch++)
+	{
+		putchar(ch);
+	}
+	putchar('\n');
+	return (0);
 }
-putchar('\n');
-return (0);
-}
-
-
-
-

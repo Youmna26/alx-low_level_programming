@@ -8,6 +8,7 @@
 */
 int  main(void)
 {
+int n alphabet
 char = 'a';
 while (ch <= 'z')
 {
